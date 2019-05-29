@@ -1,5 +1,8 @@
 num=int(input())
-if (a%2==0):
-  print("even")
+flag=num%2
+if flag==0:
+  print(num,"Even")
+elif flag==1:
+  print(num,"odd")
 else:
-  print("odd")
+  print("invalid")
